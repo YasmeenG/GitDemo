@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 ser = Service("/usr/local/bin/chromedriver")
 driver = webdriver.Chrome(service=ser)
-driver.get("https://the-internet.herokuapp.com/windows")
+driver.get("https://the-internet.herokuapp.com/windows10")
 
 driver.find_element(by=By.LINK_TEXT, value="Click Here").click()
 childwindow = driver.window_handles[1]
