@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-alertVariable = "Option3"
+alertVariable = "Option5"
 ser = Service("/usr/local/bin/chromedriver")
 
 driver = webdriver.Chrome(service=ser)
